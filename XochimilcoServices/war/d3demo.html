@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+   <script src="http://d3js.org/d3.v2.js"></script>
+</head>
+<body>
+
+<div id="rectangulo"></div>
+<script type="text/javascript">
+var rectDemo = d3.select("#rectangulo").
+  append("svg:svg").
+  attr("width", 400).
+  attr("height", 300);
+
+rectDemo.append("svg:rect").
+  attr("x", 100).
+  attr("y", 100).
+  attr("height", 100).
+  attr("width", 200);
+    
+
+</script>
+
+</body>
+</html>
